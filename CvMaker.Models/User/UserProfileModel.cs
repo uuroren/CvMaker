@@ -23,7 +23,8 @@ namespace CvMaker.Models.User {
         public List<string?>? Skills { get; set; }
         public List<string?>? Languages { get; set; }
         public List<string?>? Certifications { get; set; }
-        public List<string?>? Experiences { get; set; }
+        public List<ExperianceModels?>? Experiences { get; set; }
         public TemplateModeEnum TemplateMode { get; set; }
+        public string About { get; set; }
     }
 }
